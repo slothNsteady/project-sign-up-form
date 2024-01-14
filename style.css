@@ -94,3 +94,24 @@ button {
 .log_in_space {
   margin-top: 2vh;
 }
+
+
+input:focus:invalid {
+  background-color: rgba(255, 0, 0, 0.1);
+}
+
+input:focus {
+  background-color: rgba(0, 0, 255, 0.1);
+}
+
+input:valid {
+  background-color: rgba(0, 255, 0, 0.1);
+}
+
+input:invalid {
+  background-color: rgba(255, 0, 0, 0.1);
+}
+
+input {
+  color: rgba(0, 0, 0, 0.5);
+}
